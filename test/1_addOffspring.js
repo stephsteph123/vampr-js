@@ -19,6 +19,8 @@ describe("Vampire", function() {
       offspring2 = new Vampire("sarah");
       rootVampire.addOffspring(offspring1);
       rootVampire.addOffspring(offspring2);
+      console.log(offspring1)
+      console.log(offspring2)
     });
 
     it("should get added to offspring", () => {
